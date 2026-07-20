@@ -1,0 +1,303 @@
+{
+  "candidate_parents_checked": 600,
+  "candidate_rows_checked": 1800,
+  "failed_parents": 0,
+  "failed_rows": 0,
+  "full_context_near_limit": "full supplied contexts are exact-hash gated; established near gate is question char5/word3 Jaccard",
+  "labels_read": false,
+  "maximum_question_char5_jaccard": 0.15702479,
+  "maximum_question_word3_jaccard": 0.05555556,
+  "method": "exact normalized question/context/question-context/triple plus no-false-negative-at-0.90 question char5 and word3 Jaccard",
+  "near_threshold": 0.9,
+  "protected_binding_set_sha256": "82d75f223377cb6426c33da7c18c99eb5d2c27962d3a66470b2594b3661a5fe1",
+  "protected_bindings": [
+    {
+      "bytes": 2329947,
+      "labels_read": false,
+      "path": "test set.csv",
+      "rows": 2516,
+      "set_id": "phase1_test_label_free",
+      "sha256": "db75049956c6fa00e4d9c476716ee34bc4cc17a737f52ada06d2c0f80d567b81",
+      "unique_projections_added": 2516
+    },
+    {
+      "bytes": 2143120,
+      "labels_read_for_overlap": false,
+      "path": "artifacts/eval/phase2_challenge1000_v1_20260717/formatted_inputs.jsonl",
+      "rows": 1000,
+      "set_id": "artifacts/eval/phase2_challenge1000_v1_20260717/formatted_inputs.jsonl",
+      "sha256": "9a682b34cd67396868acb9a7de10cd6a7854b21278a07daa13087a734411d3a7",
+      "unique_projections_added": 976
+    },
+    {
+      "bytes": 2575051,
+      "labels_read_for_overlap": false,
+      "path": "artifacts/eval/phase2_challenge350_pipeline_v2_20260718/formatted_inputs.jsonl",
+      "rows": 350,
+      "set_id": "artifacts/eval/phase2_challenge350_pipeline_v2_20260718/formatted_inputs.jsonl",
+      "sha256": "e46b107e787dd646766fefc3cb5bf83e190299a184bb00d62d2e3d67a33697c1",
+      "unique_projections_added": 178
+    },
+    {
+      "bytes": 2775026,
+      "labels_read_for_overlap": false,
+      "path": "artifacts/eval/phase2_confirmatory1000_v1_20260718/formatted_inputs.jsonl",
+      "rows": 1000,
+      "set_id": "artifacts/eval/phase2_confirmatory1000_v1_20260718/formatted_inputs.jsonl",
+      "sha256": "ba93fbee8d5760b7f746667c047f7a8c0c4fa87d53094f0736bbb4b3e1ebadf7",
+      "unique_projections_added": 973
+    },
+    {
+      "bytes": 1281736,
+      "labels_read_for_overlap": false,
+      "path": "artifacts/training/contextual_canary_360_v1/records.jsonl",
+      "rows": 220,
+      "set_id": "artifacts/training/contextual_canary_360_v1/records.jsonl",
+      "sha256": "78bfe7176ea1b35c3cfc8c12d0d3de40754f1eac0c02da6aba767d1a7af8cfa4",
+      "unique_projections_added": 220
+    },
+    {
+      "bytes": 1869232,
+      "labels_read_for_overlap": false,
+      "path": "artifacts/training/contextual_canary_360_v2/records.jsonl",
+      "rows": 360,
+      "set_id": "artifacts/training/contextual_canary_360_v2/records.jsonl",
+      "sha256": "a86147435237de433393c5e3bf40af8a930f100a15126d822950412ab6ca45bf",
+      "unique_projections_added": 140
+    },
+    {
+      "bytes": 102980,
+      "labels_read_for_overlap": false,
+      "path": "artifacts/training/gemma4_e4b_contextual_heavy14m_pack_v2_20260720/calibration_examples.jsonl",
+      "rows": 32,
+      "set_id": "artifacts/training/gemma4_e4b_contextual_heavy14m_pack_v2_20260720/calibration_examples.jsonl",
+      "sha256": "d50fc84ad30d797976784966f838e33a16eec7311b19f486d7e691c66bc2a610",
+      "unique_projections_added": 32
+    },
+    {
+      "bytes": 106133,
+      "labels_read_for_overlap": false,
+      "path": "artifacts/training/gemma4_e4b_contextual_heavy14m_pack_v2_20260720/group_held_examples.jsonl",
+      "rows": 32,
+      "set_id": "artifacts/training/gemma4_e4b_contextual_heavy14m_pack_v2_20260720/group_held_examples.jsonl",
+      "sha256": "95112ad678a2b7689418c46a3b786a024560e17c9b1c51ae1fbb6ba938c56a3f",
+      "unique_projections_added": 32
+    },
+    {
+      "bytes": 1276469,
+      "labels_read_for_overlap": false,
+      "path": "artifacts/training/gemma4_e4b_contextual_heavy14m_pack_v2_20260720/long_context_diagnostic_examples.jsonl",
+      "rows": 36,
+      "set_id": "artifacts/training/gemma4_e4b_contextual_heavy14m_pack_v2_20260720/long_context_diagnostic_examples.jsonl",
+      "sha256": "22876f37ae983fa5a71bbbc35c00d0c166b73c45e68ae9ebb078d8e0740dfa1b",
+      "unique_projections_added": 36
+    },
+    {
+      "bytes": 100092,
+      "labels_read_for_overlap": false,
+      "path": "artifacts/training/gemma4_e4b_contextual_heavy14m_pack_v2_20260720/source_held_examples.jsonl",
+      "rows": 30,
+      "set_id": "artifacts/training/gemma4_e4b_contextual_heavy14m_pack_v2_20260720/source_held_examples.jsonl",
+      "sha256": "aafcf41e9c90f6ee3cbac9b09c1778d22087b952b8142de6e4c792a966ffd084",
+      "unique_projections_added": 0
+    },
+    {
+      "bytes": 92497542,
+      "labels_read_for_overlap": false,
+      "path": "artifacts/training/gemma4_e4b_contextual_heavy14m_pack_v2_20260720/train_examples.jsonl",
+      "rows": 31448,
+      "set_id": "artifacts/training/gemma4_e4b_contextual_heavy14m_pack_v2_20260720/train_examples.jsonl",
+      "sha256": "3e86b60e15b1536a61abb817d586aafc80ba6cf72e8f2dddaf33b0c92392202b",
+      "unique_projections_added": 21735
+    },
+    {
+      "bytes": 67412160,
+      "labels_read_for_overlap": false,
+      "path": "artifacts/training/gemma4_e4b_contextual_heavy_mix_v1_20260719/train_examples.jsonl",
+      "rows": 30106,
+      "set_id": "artifacts/training/gemma4_e4b_contextual_heavy_mix_v1_20260719/train_examples.jsonl",
+      "sha256": "8b6db484d075f7894c6e40a829056c01c495d9f76fad23f952a80df2df04aeb4",
+      "unique_projections_added": 11805
+    },
+    {
+      "bytes": 67415351,
+      "labels_read_for_overlap": false,
+      "path": "artifacts/training/gemma4_e4b_contextual_heavy_mix_v2_20260719/train_examples.jsonl",
+      "rows": 30741,
+      "set_id": "artifacts/training/gemma4_e4b_contextual_heavy_mix_v2_20260719/train_examples.jsonl",
+      "sha256": "01ba78ab82382215a98d5f3c0e57db6f9831f8a67bc8f7b26c89c76870e4731d",
+      "unique_projections_added": 0
+    },
+    {
+      "bytes": 698571,
+      "labels_read_for_overlap": false,
+      "path": "artifacts/training/gemma4_e4b_contextual_quality_pilot25_b_v1_20260719/train_examples.jsonl",
+      "rows": 200,
+      "set_id": "artifacts/training/gemma4_e4b_contextual_quality_pilot25_b_v1_20260719/train_examples.jsonl",
+      "sha256": "0b2ebd1b50e1c6dc582f966466a9b1964bbb85a1446f661f17af432313528d63",
+      "unique_projections_added": 122
+    },
+    {
+      "bytes": 681547,
+      "labels_read_for_overlap": false,
+      "path": "artifacts/training/gemma4_e4b_contextual_quality_pilot25_v1_20260719.stale-executor-29d014/train_examples.jsonl",
+      "rows": 200,
+      "set_id": "artifacts/training/gemma4_e4b_contextual_quality_pilot25_v1_20260719.stale-executor-29d014/train_examples.jsonl",
+      "sha256": "b095b6a8a30216288ee06190ac32522c22552fb69ad2d9e7c5ddfff41fc9cbb0",
+      "unique_projections_added": 11
+    },
+    {
+      "bytes": 681547,
+      "labels_read_for_overlap": false,
+      "path": "artifacts/training/gemma4_e4b_contextual_quality_pilot25_v1_20260719.stale-executor-2e6384/train_examples.jsonl",
+      "rows": 200,
+      "set_id": "artifacts/training/gemma4_e4b_contextual_quality_pilot25_v1_20260719.stale-executor-2e6384/train_examples.jsonl",
+      "sha256": "b095b6a8a30216288ee06190ac32522c22552fb69ad2d9e7c5ddfff41fc9cbb0",
+      "unique_projections_added": 0
+    },
+    {
+      "bytes": 681547,
+      "labels_read_for_overlap": false,
+      "path": "artifacts/training/gemma4_e4b_contextual_quality_pilot25_v1_20260719.stale-executor-f23326/train_examples.jsonl",
+      "rows": 200,
+      "set_id": "artifacts/training/gemma4_e4b_contextual_quality_pilot25_v1_20260719.stale-executor-f23326/train_examples.jsonl",
+      "sha256": "b095b6a8a30216288ee06190ac32522c22552fb69ad2d9e7c5ddfff41fc9cbb0",
+      "unique_projections_added": 0
+    },
+    {
+      "bytes": 681547,
+      "labels_read_for_overlap": false,
+      "path": "artifacts/training/gemma4_e4b_contextual_quality_pilot25_v1_20260719/train_examples.jsonl",
+      "rows": 200,
+      "set_id": "artifacts/training/gemma4_e4b_contextual_quality_pilot25_v1_20260719/train_examples.jsonl",
+      "sha256": "b095b6a8a30216288ee06190ac32522c22552fb69ad2d9e7c5ddfff41fc9cbb0",
+      "unique_projections_added": 0
+    },
+    {
+      "bytes": 681547,
+      "labels_read_for_overlap": false,
+      "path": "artifacts/training/gemma4_e4b_contextual_quality_pilot25_v2_20260719/train_examples.jsonl",
+      "rows": 200,
+      "set_id": "artifacts/training/gemma4_e4b_contextual_quality_pilot25_v2_20260719/train_examples.jsonl",
+      "sha256": "b095b6a8a30216288ee06190ac32522c22552fb69ad2d9e7c5ddfff41fc9cbb0",
+      "unique_projections_added": 0
+    },
+    {
+      "bytes": 681547,
+      "labels_read_for_overlap": false,
+      "path": "artifacts/training/gemma4_e4b_contextual_quality_pilot25_v3_20260719/train_examples.jsonl",
+      "rows": 200,
+      "set_id": "artifacts/training/gemma4_e4b_contextual_quality_pilot25_v3_20260719/train_examples.jsonl",
+      "sha256": "b095b6a8a30216288ee06190ac32522c22552fb69ad2d9e7c5ddfff41fc9cbb0",
+      "unique_projections_added": 0
+    },
+    {
+      "bytes": 4643137,
+      "labels_read_for_overlap": false,
+      "path": "artifacts/training/gemma4_e4b_contextual_repair_factorial_canary_v1_20260720/train_examples.jsonl",
+      "rows": 1600,
+      "set_id": "artifacts/training/gemma4_e4b_contextual_repair_factorial_canary_v1_20260720/train_examples.jsonl",
+      "sha256": "1e2348eeade0280d9b5e1a6c98fdcc69a45913ae3966b336ea939198c4927716",
+      "unique_projections_added": 0
+    },
+    {
+      "bytes": 4643137,
+      "labels_read_for_overlap": false,
+      "path": "artifacts/training/gemma4_e4b_contextual_repair_factorial_canary_v1_20260720_superseded_micro2_ga4/train_examples.jsonl",
+      "rows": 1600,
+      "set_id": "artifacts/training/gemma4_e4b_contextual_repair_factorial_canary_v1_20260720_superseded_micro2_ga4/train_examples.jsonl",
+      "sha256": "1e2348eeade0280d9b5e1a6c98fdcc69a45913ae3966b336ea939198c4927716",
+      "unique_projections_added": 0
+    },
+    {
+      "bytes": 4643137,
+      "labels_read_for_overlap": false,
+      "path": "artifacts/training/gemma4_e4b_contextual_repair_factorial_canary_v1_20260720_superseded_pre_chat_replay/train_examples.jsonl",
+      "rows": 1600,
+      "set_id": "artifacts/training/gemma4_e4b_contextual_repair_factorial_canary_v1_20260720_superseded_pre_chat_replay/train_examples.jsonl",
+      "sha256": "1e2348eeade0280d9b5e1a6c98fdcc69a45913ae3966b336ea939198c4927716",
+      "unique_projections_added": 0
+    },
+    {
+      "bytes": 4643137,
+      "labels_read_for_overlap": false,
+      "path": "artifacts/training/gemma4_e4b_contextual_repair_factorial_canary_v2_20260720/train_examples.jsonl",
+      "rows": 1600,
+      "set_id": "artifacts/training/gemma4_e4b_contextual_repair_factorial_canary_v2_20260720/train_examples.jsonl",
+      "sha256": "37d98b09a50575c3968be468018bae6cc241a656e0b730c9162587b64a223c92",
+      "unique_projections_added": 0
+    },
+    {
+      "bytes": 4643137,
+      "labels_read_for_overlap": false,
+      "path": "artifacts/training/gemma4_e4b_contextual_repair_factorial_canary_v3_20260720/train_examples.jsonl",
+      "rows": 1600,
+      "set_id": "artifacts/training/gemma4_e4b_contextual_repair_factorial_canary_v3_20260720/train_examples.jsonl",
+      "sha256": "37d98b09a50575c3968be468018bae6cc241a656e0b730c9162587b64a223c92",
+      "unique_projections_added": 0
+    },
+    {
+      "bytes": 102980,
+      "labels_read_for_overlap": false,
+      "path": "artifacts/training/gemma4_e4b_local70_quality_canary_v1_20260720/calibration_examples.jsonl",
+      "rows": 32,
+      "set_id": "artifacts/training/gemma4_e4b_local70_quality_canary_v1_20260720/calibration_examples.jsonl",
+      "sha256": "d50fc84ad30d797976784966f838e33a16eec7311b19f486d7e691c66bc2a610",
+      "unique_projections_added": 0
+    },
+    {
+      "bytes": 106133,
+      "labels_read_for_overlap": false,
+      "path": "artifacts/training/gemma4_e4b_local70_quality_canary_v1_20260720/group_held_examples.jsonl",
+      "rows": 32,
+      "set_id": "artifacts/training/gemma4_e4b_local70_quality_canary_v1_20260720/group_held_examples.jsonl",
+      "sha256": "95112ad678a2b7689418c46a3b786a024560e17c9b1c51ae1fbb6ba938c56a3f",
+      "unique_projections_added": 0
+    },
+    {
+      "bytes": 1281039,
+      "labels_read_for_overlap": false,
+      "path": "artifacts/training/gemma4_e4b_local70_quality_canary_v1_20260720/long_held_examples.jsonl",
+      "rows": 36,
+      "set_id": "artifacts/training/gemma4_e4b_local70_quality_canary_v1_20260720/long_held_examples.jsonl",
+      "sha256": "710cba8c2a74ecb14dee97296e6e27deee012bee5f4da90fd30117b818dc2b4e",
+      "unique_projections_added": 0
+    },
+    {
+      "bytes": 100092,
+      "labels_read_for_overlap": false,
+      "path": "artifacts/training/gemma4_e4b_local70_quality_canary_v1_20260720/source_held_examples.jsonl",
+      "rows": 30,
+      "set_id": "artifacts/training/gemma4_e4b_local70_quality_canary_v1_20260720/source_held_examples.jsonl",
+      "sha256": "aafcf41e9c90f6ee3cbac9b09c1778d22087b952b8142de6e4c792a966ffd084",
+      "unique_projections_added": 0
+    },
+    {
+      "bytes": 5059458,
+      "labels_read_for_overlap": false,
+      "path": "artifacts/training/gemma4_e4b_local70_quality_canary_v1_20260720/train_examples.jsonl",
+      "rows": 200,
+      "set_id": "artifacts/training/gemma4_e4b_local70_quality_canary_v1_20260720/train_examples.jsonl",
+      "sha256": "1032501e21eeb74f4d1be130c0dea5b31c1ca61ea41fd1e6fb19e5da9b6ec1e1",
+      "unique_projections_added": 0
+    },
+    {
+      "bytes": 2241608,
+      "labels_read_for_overlap": false,
+      "path": "artifacts/training/gemma4_e4b_step50_guarded_continuation_v1_20260720/train_examples.jsonl",
+      "rows": 800,
+      "set_id": "artifacts/training/gemma4_e4b_step50_guarded_continuation_v1_20260720/train_examples.jsonl",
+      "sha256": "dd44bf7b0b2d5a888d0ab703ba9cc6e1c0795a6b20a7be62e83c4d0afa9025cf",
+      "unique_projections_added": 0
+    }
+  ],
+  "protected_parent_ids": 25218,
+  "row_ledger": {
+    "bytes": 897049,
+    "path": "artifacts/training/gemma4_e4b_owned_indirect_context_candidate_v1_20260720/overlap_row_ledger.jsonl",
+    "rows": 1800,
+    "sha256": "2459b39387df97581e7932c78e54afa7dd9327ee75924d997c9e2cf4e679941f"
+  },
+  "status": "PASS",
+  "version": "bichar-gemma4-e4b-owned-indirect-context-candidate-v1-20260720-overlap-audit"
+}

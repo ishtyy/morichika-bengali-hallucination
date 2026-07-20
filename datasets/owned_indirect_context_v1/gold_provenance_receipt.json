@@ -1,0 +1,10 @@
+{
+  "adjudication_status": "deterministic_reference_approved",
+  "builder_sha256": "435c887abfe72bf41cd4544b42efb34486bf383974443ddd0964cdbe903cf203",
+  "construction": "coded finite Bengali parent specifications with deterministic arithmetic or explicit supplied-rule adjudication",
+  "derivation_present_only_for_answerable_supported_and_refuted": true,
+  "nei_uses_related_but_missing_or_ambiguous_requested_slot": true,
+  "supported_refuted_share_same_answerable_question": true,
+  "version": "bichar-gemma4-e4b-owned-indirect-context-candidate-v1-20260720-gold-provenance",
+  "world_knowledge_used_for_contextual_nei": false
+}

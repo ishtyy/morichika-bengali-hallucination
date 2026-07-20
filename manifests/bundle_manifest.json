@@ -1,0 +1,507 @@
+{
+  "version": "morichika-phase2-retrieval-strict-v3-local-package",
+  "dataset_id": "ishtyy/morichika-phase2-retrieval-strict-v3-20260720",
+  "generated_at_utc": "2026-07-20T15:21:35.741613+00:00",
+  "uploaded": false,
+  "package_id": "6f68b6f284d55bacc3a34530a8492a78347b5c01243d55d256eb467ea096ad7e",
+  "payload_files": 94,
+  "payload_bytes": 615548266,
+  "source_counts": {
+    "package_sources": 12,
+    "fts_sources": 4,
+    "fts_records": 50374,
+    "fts_model_facing_records": 20641,
+    "mmap_sources": 6,
+    "mmap_model_facing_records": 237753,
+    "lexical_exact_records": 14785,
+    "all_stored_records": 302912,
+    "records_by_source": {
+      "bangla_wordnet": 29733,
+      "nctb_passage_qa_mendeley_v1": 2802,
+      "openai_mmmlu_bn": 14042,
+      "uddipok_v3": 3797,
+      "bangla_mmlu": 85018,
+      "nctb_qa_87805": 47945,
+      "nctb_education_aux": 25890,
+      "downloads_bcs_10_50": 5309,
+      "nctb_schooltext": 58872,
+      "joykoli_six_part": 14719,
+      "lexical::bangla_bagdhara_cc_by_sa_4": 11065,
+      "lexical::bnwiktionary_cc_by_sa_4_20260701": 3720
+    }
+  },
+  "strict_fts_cache_id": "7db4c3250dcb5c396037b278ed8df148e7823242291e5ff43f2151ac3610d383",
+  "files": [
+    {
+      "path": "admission/uddipok_v3_strict_admission_v1/group_ledger.jsonl",
+      "bytes": 55402,
+      "sha256": "853ea9744801294b61459361d0eeafe14717043e9f384bc8c319c09e4676fdb1"
+    },
+    {
+      "path": "admission/uddipok_v3_strict_admission_v1/manifest.json",
+      "bytes": 2471,
+      "sha256": "198bf487661222c33b33fe688e99aa4c4b36b401d895d5dbd631eb87fecb6f9e"
+    },
+    {
+      "path": "admission/uddipok_v3_strict_admission_v1/row_ledger.jsonl",
+      "bytes": 2074138,
+      "sha256": "45b12f9b08d9995fc7a91187f62ea0ce288916b8421344c3ff5e6228805e73c0"
+    },
+    {
+      "path": "artifacts/retrieval/bangla_mmlu_char_v1_mmap_v2/data.npy",
+      "bytes": 35005324,
+      "sha256": "c69dcd7393ff3bd7b8f34d443b3ec813cba10e9acd2c2a867b44027d60d35d29"
+    },
+    {
+      "path": "artifacts/retrieval/bangla_mmlu_char_v1_mmap_v2/idf.npy",
+      "bytes": 677400,
+      "sha256": "224a1b0bfe99d21fa5e81fdcc42837e853e5e8b989a3a6e9de0fb6743a719b41"
+    },
+    {
+      "path": "artifacts/retrieval/bangla_mmlu_char_v1_mmap_v2/indices.npy",
+      "bytes": 35005324,
+      "sha256": "ec0ea7d14d8e4af74f32830eb59681b0e4c4a38234e331b65fb9723707668c62"
+    },
+    {
+      "path": "artifacts/retrieval/bangla_mmlu_char_v1_mmap_v2/indptr.npy",
+      "bytes": 340204,
+      "sha256": "9260b1bc4df2cabcee57644639b83570f6bda656757ab02a5f6b455912df076e"
+    },
+    {
+      "path": "artifacts/retrieval/bangla_mmlu_char_v1_mmap_v2/manifest.json",
+      "bytes": 4309,
+      "sha256": "388deb2bc1c25d1c178d8001a5a15e7f7cf91dfc8cc6953c050a076561dbf1e5"
+    },
+    {
+      "path": "artifacts/retrieval/bangla_mmlu_char_v1_mmap_v2/records.sqlite3",
+      "bytes": 40386560,
+      "sha256": "0906feb6b4640b360cf1880ae1b0c2cdea54086f5cd4ab6fffca334a7f5d5d1f"
+    },
+    {
+      "path": "artifacts/retrieval/bangla_mmlu_char_v1_mmap_v2/vectorizer.json",
+      "bytes": 395,
+      "sha256": "9734b8fdb8319dcf7860a49ab4f59b711b9cb53e9e32da89ce089c5add451b35"
+    },
+    {
+      "path": "artifacts/retrieval/bangla_mmlu_char_v1_mmap_v2/vocabulary.json",
+      "bytes": 2114788,
+      "sha256": "a33ad2e3c9b756f3f03003dd31487a8592ea1050732ab926b7c458457d163f1e"
+    },
+    {
+      "path": "artifacts/retrieval/downloads_bcs_10_50_char_v1_mmap_v2/data.npy",
+      "bytes": 8806624,
+      "sha256": "3b238ca92d8a75b1c0ca5c94f0f9d6518c773b8b0d78a15427bc9850c78eec16"
+    },
+    {
+      "path": "artifacts/retrieval/downloads_bcs_10_50_char_v1_mmap_v2/idf.npy",
+      "bytes": 1062104,
+      "sha256": "1e35588d65d0d5e7739b2d5ff57bb0f57ca7f6be87469e4b1beaaf70113a7675"
+    },
+    {
+      "path": "artifacts/retrieval/downloads_bcs_10_50_char_v1_mmap_v2/indices.npy",
+      "bytes": 8806624,
+      "sha256": "5ccbc614917e279559a897c0a03a345beef9135b34273951a5fa048426b73bb0"
+    },
+    {
+      "path": "artifacts/retrieval/downloads_bcs_10_50_char_v1_mmap_v2/indptr.npy",
+      "bytes": 21368,
+      "sha256": "a223e80b6a05434f39b9bcc7c7beaa865431c4e63b85f044eca9a0d65811d647"
+    },
+    {
+      "path": "artifacts/retrieval/downloads_bcs_10_50_char_v1_mmap_v2/manifest.json",
+      "bytes": 5388,
+      "sha256": "1918a3c682cc4e38dbc464bf77f06314c624b97430ce32dd2fdc68127edc0d30"
+    },
+    {
+      "path": "artifacts/retrieval/downloads_bcs_10_50_char_v1_mmap_v2/records.sqlite3",
+      "bytes": 5079040,
+      "sha256": "85a48a605cf0c49b7bc813eb9600f31c83f159fb21fab0666a2c2b0c81c8d15e"
+    },
+    {
+      "path": "artifacts/retrieval/downloads_bcs_10_50_char_v1_mmap_v2/vectorizer.json",
+      "bytes": 395,
+      "sha256": "444ff3095f766df48176433039c0565a66bb12b6a45faabac40fc6c83cda407b"
+    },
+    {
+      "path": "artifacts/retrieval/downloads_bcs_10_50_char_v1_mmap_v2/vocabulary.json",
+      "bytes": 3280374,
+      "sha256": "912d736922fd10fd25424c3560939f02b3491678c35bdace4a8940c922353923"
+    },
+    {
+      "path": "artifacts/retrieval/joykoli_six_part_char_v3_mmap_v2/data.npy",
+      "bytes": 13120356,
+      "sha256": "a56c742b53f97e2ee58f12277656ba82fdb7d069de234a7d6fd05159c17faf06"
+    },
+    {
+      "path": "artifacts/retrieval/joykoli_six_part_char_v3_mmap_v2/idf.npy",
+      "bytes": 1261196,
+      "sha256": "7cbd372dfa85b7c0b17610ebb908746a6b286817f21fa0b6cbe4f447eb4059c0"
+    },
+    {
+      "path": "artifacts/retrieval/joykoli_six_part_char_v3_mmap_v2/indices.npy",
+      "bytes": 13120356,
+      "sha256": "1da801add31a3009b97d9345fd6b14de33d4ad331e41af1d967e17fdd1fce959"
+    },
+    {
+      "path": "artifacts/retrieval/joykoli_six_part_char_v3_mmap_v2/indptr.npy",
+      "bytes": 59008,
+      "sha256": "2f9305d3c506fca2b08d7fb0890e83cea8c1c0618cd455052a7eab572c11767b"
+    },
+    {
+      "path": "artifacts/retrieval/joykoli_six_part_char_v3_mmap_v2/manifest.json",
+      "bytes": 8504,
+      "sha256": "2f8a38c03cfb2be2004a4b7b00da0fbbe4054f288474d4fb7b297bb9c68d9d5a"
+    },
+    {
+      "path": "artifacts/retrieval/joykoli_six_part_char_v3_mmap_v2/records.sqlite3",
+      "bytes": 21540864,
+      "sha256": "eb4d243b9a9100b240c81cf005ee412e7a43f298f4122c367545ba5565228a08"
+    },
+    {
+      "path": "artifacts/retrieval/joykoli_six_part_char_v3_mmap_v2/vectorizer.json",
+      "bytes": 395,
+      "sha256": "bd062915ebc3d769f18409791fb47078e182f420a59a7315ba8cbe6e487a13e2"
+    },
+    {
+      "path": "artifacts/retrieval/joykoli_six_part_char_v3_mmap_v2/vocabulary.json",
+      "bytes": 3537207,
+      "sha256": "58b4f07bca17baea6eca78cf9adaf1b08ad2d82731124daf81ebdd6035d207de"
+    },
+    {
+      "path": "artifacts/retrieval/nctb_education_aux_char_v1_mmap_v2/data.npy",
+      "bytes": 10394044,
+      "sha256": "e8ffc611a29a0cb44efbc9caf12830c8da0e7c84c57adcc7cc6cc8eaa92240e2"
+    },
+    {
+      "path": "artifacts/retrieval/nctb_education_aux_char_v1_mmap_v2/idf.npy",
+      "bytes": 459240,
+      "sha256": "13ae369097803ceda5bf1bf837967ec92db2f470c2cda32610750dec7429621e"
+    },
+    {
+      "path": "artifacts/retrieval/nctb_education_aux_char_v1_mmap_v2/indices.npy",
+      "bytes": 10394044,
+      "sha256": "111aec4889f1a8088c99e9504240f19fa3557cc628944046a2db2f9da388ec59"
+    },
+    {
+      "path": "artifacts/retrieval/nctb_education_aux_char_v1_mmap_v2/indptr.npy",
+      "bytes": 103692,
+      "sha256": "403949c8a18debf4ae8f30711366b31a44060f0ac52fe0bef3c0df4950280693"
+    },
+    {
+      "path": "artifacts/retrieval/nctb_education_aux_char_v1_mmap_v2/manifest.json",
+      "bytes": 5773,
+      "sha256": "c624c473e1158a16d4c0edd01dddf9c34b205ec20aebab4b84d747c58df8ab86"
+    },
+    {
+      "path": "artifacts/retrieval/nctb_education_aux_char_v1_mmap_v2/records.sqlite3",
+      "bytes": 19906560,
+      "sha256": "42f8468ce9bf55c137a8b5223426d6e868e31cf927062da5bf79e12c64f8883c"
+    },
+    {
+      "path": "artifacts/retrieval/nctb_education_aux_char_v1_mmap_v2/vectorizer.json",
+      "bytes": 395,
+      "sha256": "76af5781a7ad7eee150fb3458f6c5764ab433d3055afad285715994ba036348c"
+    },
+    {
+      "path": "artifacts/retrieval/nctb_education_aux_char_v1_mmap_v2/vocabulary.json",
+      "bytes": 1635107,
+      "sha256": "0da0b9ac3777721d31cf5f3d17e7c2d1b4f0e21c942f135763da57368baff105"
+    },
+    {
+      "path": "artifacts/retrieval/nctb_qa_87805_char_v1_mmap_v2/data.npy",
+      "bytes": 22527596,
+      "sha256": "50023e09979ecf36a30ffb7a18e8e8021d03da5e8f3e0fa2613c33042e8871cd"
+    },
+    {
+      "path": "artifacts/retrieval/nctb_qa_87805_char_v1_mmap_v2/idf.npy",
+      "bytes": 369796,
+      "sha256": "319540784b00493e39190f3ed04d1bab628662d17c528699a2d1b44d4c42c641"
+    },
+    {
+      "path": "artifacts/retrieval/nctb_qa_87805_char_v1_mmap_v2/indices.npy",
+      "bytes": 22527596,
+      "sha256": "8955fbaf394173acab3579548da116f96cec434697b0c37f6dfce49fc684f8fa"
+    },
+    {
+      "path": "artifacts/retrieval/nctb_qa_87805_char_v1_mmap_v2/indptr.npy",
+      "bytes": 191912,
+      "sha256": "ac90d131893e1130bcb73eae42c345b526b921e43f6e26e463384712ed16aad8"
+    },
+    {
+      "path": "artifacts/retrieval/nctb_qa_87805_char_v1_mmap_v2/manifest.json",
+      "bytes": 4501,
+      "sha256": "24cad1a95eb11a929a19b68f9e73fa6e1915dd1b4e15a741ff62d0a531a7137e"
+    },
+    {
+      "path": "artifacts/retrieval/nctb_qa_87805_char_v1_mmap_v2/records.sqlite3",
+      "bytes": 24322048,
+      "sha256": "594dbc484a4489a5c86d8e85ce5ed7a8ee6ba954e0d9972716b2bdae1873175b"
+    },
+    {
+      "path": "artifacts/retrieval/nctb_qa_87805_char_v1_mmap_v2/vectorizer.json",
+      "bytes": 394,
+      "sha256": "e227e9bbec0fd1979ca41173ac40e2ee4c4d4d339c680c9ff8ab40a0feef7104"
+    },
+    {
+      "path": "artifacts/retrieval/nctb_qa_87805_char_v1_mmap_v2/vocabulary.json",
+      "bytes": 1395424,
+      "sha256": "d2623e2ba0a3553fb9eeefbc7f329950bb5d69414429fc60be03fecfabcc1697"
+    },
+    {
+      "path": "artifacts/retrieval/nctb_schooltext_word_v1_mmap_v2/data.npy",
+      "bytes": 14205680,
+      "sha256": "44877c84569afd09162dc4520a2e57120fcca94ed8072b70b640a983799d654e"
+    },
+    {
+      "path": "artifacts/retrieval/nctb_schooltext_word_v1_mmap_v2/idf.npy",
+      "bytes": 901860,
+      "sha256": "6e1dcaab0b639f44251a69c993133ceee8389fd2d018a7572ba7e2bd7e51226c"
+    },
+    {
+      "path": "artifacts/retrieval/nctb_schooltext_word_v1_mmap_v2/indices.npy",
+      "bytes": 14205680,
+      "sha256": "353da6de4956bff8330d3fb836526b7bac051cc1b6c58c90bec858b51427299e"
+    },
+    {
+      "path": "artifacts/retrieval/nctb_schooltext_word_v1_mmap_v2/indptr.npy",
+      "bytes": 235620,
+      "sha256": "05ce5498b6fd1124458cd6ec5699456a2a32ef5e0e1f3594cf7056514c467f01"
+    },
+    {
+      "path": "artifacts/retrieval/nctb_schooltext_word_v1_mmap_v2/manifest.json",
+      "bytes": 4851,
+      "sha256": "8b790d8d965ce091fb944eaa9102929c9bfc3cacbeb5d8bfa3b2b4577354cf2a"
+    },
+    {
+      "path": "artifacts/retrieval/nctb_schooltext_word_v1_mmap_v2/records.sqlite3",
+      "bytes": 143556608,
+      "sha256": "5ac76ca777c364aa3592edacae8d27f029a1306470b5b32b47c4ec4b4eaf21d3"
+    },
+    {
+      "path": "artifacts/retrieval/nctb_schooltext_word_v1_mmap_v2/vectorizer.json",
+      "bytes": 392,
+      "sha256": "be845d5a556c1c06468df22be1cb26f6394d43bc16ddfd107e7b4f26f16cd089"
+    },
+    {
+      "path": "artifacts/retrieval/nctb_schooltext_word_v1_mmap_v2/vocabulary.json",
+      "bytes": 3664336,
+      "sha256": "1cf8ce99359d942d9e620127da2b77b30bea457c39be55a3c5aadaf7269c5fc5"
+    },
+    {
+      "path": "artifacts/retrieval/phase2_lexical_seed_v2/ATTRIBUTION.json",
+      "bytes": 1890,
+      "sha256": "c6a54b24df88d0b5f5966c62e730962065cb847442cbe6916d42c28cf68e17d3"
+    },
+    {
+      "path": "artifacts/retrieval/phase2_lexical_seed_v2/lexical_seed_records.jsonl",
+      "bytes": 9536092,
+      "sha256": "3927fa83b502ec0392f2701dd4990a0562a3dd49f785bae37787453fd1b71eaa"
+    },
+    {
+      "path": "artifacts/retrieval/phase2_lexical_seed_v2/manifest.json",
+      "bytes": 2450,
+      "sha256": "f05e056f646b5e49259e1f6658c03d9894c9a31b7cf6aca7583a7032c1d05fb3"
+    },
+    {
+      "path": "artifacts/retrieval/phase2_strict_rights_safe_fts_v3_final/evidence.sqlite3",
+      "bytes": 118063104,
+      "sha256": "66ae08ddbc8365488518eb30dd06e9bea82ce9055884d4b54b3fed4cbe3a5a63"
+    },
+    {
+      "path": "artifacts/retrieval/phase2_strict_rights_safe_fts_v3_final/manifest.json",
+      "bytes": 9200,
+      "sha256": "b59ec2d04c6784ae3980a3585c3e453d9a8ec8440aac9a13b55b36363e3bcddb"
+    },
+    {
+      "path": "attribution/artifacts/retrieval/nctb_schooltext_word_v1_mmap_v2/manifest.json",
+      "bytes": 4851,
+      "sha256": "8b790d8d965ce091fb944eaa9102929c9bfc3cacbeb5d8bfa3b2b4577354cf2a"
+    },
+    {
+      "path": "attribution/artifacts/retrieval/phase2_lexical_seed_v2/ATTRIBUTION.json",
+      "bytes": 1890,
+      "sha256": "c6a54b24df88d0b5f5966c62e730962065cb847442cbe6916d42c28cf68e17d3"
+    },
+    {
+      "path": "attribution/artifacts/retrieval/phase2_lexical_seed_v2/manifest.json",
+      "bytes": 2450,
+      "sha256": "f05e056f646b5e49259e1f6658c03d9894c9a31b7cf6aca7583a7032c1d05fb3"
+    },
+    {
+      "path": "attribution/external_data/bangla_wordnet/manifest.json",
+      "bytes": 1706,
+      "sha256": "5ae89de42b0e1e3341c94546c01340df5c2aa75faecfe7225c07cf8a28e8c634"
+    },
+    {
+      "path": "attribution/external_data/bcs_downloads_10_50/manifest.json",
+      "bytes": 12031,
+      "sha256": "837ad3a367cb63f6f2295156d1330eab1a0138e0c0709b3855a3dc98eb6527df"
+    },
+    {
+      "path": "attribution/external_data/benqa/manifest.json",
+      "bytes": 6546,
+      "sha256": "867f9e9a35f3b8524546965e0a92aa09bbeb07ca8c6f92750056f0fdfb81e944"
+    },
+    {
+      "path": "attribution/external_data/joykoli_six_part_v3/manifest.json",
+      "bytes": 4641,
+      "sha256": "25914a3f704a2c79042675b115481655b054beb694e45c940163f3cca4c36c62"
+    },
+    {
+      "path": "attribution/external_data/nctb_passage_qa_mendeley_v1/manifest.json",
+      "bytes": 896,
+      "sha256": "101b6dbe97b83d1800f163ba92b3976df37504e0497f3b16bf5a20b3c19847c8"
+    },
+    {
+      "path": "attribution/external_data/nctb_qa_87805/manifest.json",
+      "bytes": 1944,
+      "sha256": "093f39a596344dfd5d972b7c7d7f05cc59e23e635fb01a85d58d9f4e5e52e551"
+    },
+    {
+      "path": "attribution/external_data/nctb_schooltext_mendeley_v1/manifest.json",
+      "bytes": 348625,
+      "sha256": "7154164a5e5d91c646e9894436717dbb12292c0bce7b0025130eb154a9bcfbe3"
+    },
+    {
+      "path": "attribution/external_data/nctbench/manifest.json",
+      "bytes": 571,
+      "sha256": "523c1cfb91eba135d241d1fa8d8767730d0dfac4a1a2bf45034c3562850021ec"
+    },
+    {
+      "path": "attribution/external_data/openai_mmmlu_bn/manifest.json",
+      "bytes": 821,
+      "sha256": "cb6e6149caf10d657d8085ccfbd168248c7cd6668cd1fdebb49135c6c4e7411c"
+    },
+    {
+      "path": "attribution/external_data/somajgyaan/manifest.json",
+      "bytes": 475,
+      "sha256": "6c278e8ac1aca024af8e8ad4407303ddb40930521c0eb5e736e52f1236ed9ff9"
+    },
+    {
+      "path": "attribution/external_data/ssc_banglatutor_v2/manifest.json",
+      "bytes": 2484,
+      "sha256": "517c539713f371b17b0ffcd6f1a29600bf9229a4c484dcc59b21fe2d574034cd"
+    },
+    {
+      "path": "attribution/external_data/uddipok_v3/manifest.json",
+      "bytes": 1706,
+      "sha256": "5498d8051ce00e6ecf4e459a64367746234fa2ccb4ce566ad8a03deeba1fb70d"
+    },
+    {
+      "path": "dataset-metadata.json",
+      "bytes": 217,
+      "sha256": "aa78270a778feb2977dc98b148f45d181cef24e9b1036dbf71c1ba828b58f529"
+    },
+    {
+      "path": "pipeline/contextual_note_taker_fallback.py",
+      "bytes": 24218,
+      "sha256": "126dbf9a6fff8fbe9e510706d595828221e5e7013427bfc5602c995e022a8013"
+    },
+    {
+      "path": "pipeline/phase2_canonicalize.py",
+      "bytes": 1015,
+      "sha256": "b2529d23b2cbb82bdd63b4ef455011bafdf7d6a97a1f804771e8f664a7f23bcd"
+    },
+    {
+      "path": "pipeline/phase2_composite_fts_retrieval.py",
+      "bytes": 22906,
+      "sha256": "784837e7fd54d7a7761e4f60ce6af920783780a0255f7060d3f8124e14594265"
+    },
+    {
+      "path": "pipeline/phase2_evidence_priority.py",
+      "bytes": 9041,
+      "sha256": "8c88f3c6a1eaa8a2a96110d53d78a295666ddabe5a1f3c3cc49930ee3552c9c7"
+    },
+    {
+      "path": "pipeline/phase2_mmap_retrieval.py",
+      "bytes": 8660,
+      "sha256": "281a204047684903d7bec83ebe0846285e8a6b3f9a0efb4c30011d619e7e2155"
+    },
+    {
+      "path": "pipeline/phase2_response_proposition.py",
+      "bytes": 8088,
+      "sha256": "49997f36924f2b0bffa9bbf2a845b80b19cf78a48039cf041fa03ed7dc878f4f"
+    },
+    {
+      "path": "pipeline/phase2_retrieval_lane_policy.py",
+      "bytes": 5466,
+      "sha256": "20ec445a84d3a6bc4f75d9720a1eb55d5efb42354bc8958888f9035ca56780e9"
+    },
+    {
+      "path": "pipeline/phase2_source_authority.py",
+      "bytes": 4448,
+      "sha256": "c18d43dd073059e9c9258220a4306d344423b69f45f39e7c1f2f25c5dd7635d6"
+    },
+    {
+      "path": "pipeline/phase2_sparse_retrieval.py",
+      "bytes": 78692,
+      "sha256": "ada9cfe25a2794792e4f79f1b930d8337b70edb050d24eb15225d50b1c346681"
+    },
+    {
+      "path": "pipeline/resources/phase2_evidence_priority_v2.json",
+      "bytes": 1119,
+      "sha256": "c5aabb06155c3657d088c4f960fefafee172200556e274f8b7296326969a7812"
+    },
+    {
+      "path": "pipeline/resources/phase2_source_authority_v1.json",
+      "bytes": 1877,
+      "sha256": "bed3914a5f7eaeabf2005629881623418230d2fc7c2d0b2306921c602cdf93e1"
+    },
+    {
+      "path": "RIGHTS_SUMMARY.json",
+      "bytes": 4223,
+      "sha256": "9421a6ea5eafd6748a49a6358c2fc24304508f8fc9777e5afa79ebcfd23a0cf6"
+    },
+    {
+      "path": "SOURCE_COUNTS.json",
+      "bytes": 698,
+      "sha256": "a8307c9de4760880716443ddc842bffbafdef65afa7f141048eba5a906392963"
+    },
+    {
+      "path": "SOURCE_PRIORITY.json",
+      "bytes": 1567,
+      "sha256": "0e7f5ffa0fb7fdaf84b05e992a1328c9b72f358fe418443f66296e70005f5dba"
+    },
+    {
+      "path": "source_registry_v6/deployable_source_registry.json",
+      "bytes": 567611,
+      "sha256": "e858808f746d777d3277bd4272fe07adddbe5eeb043caac0e46d8b3f4a32c5bc"
+    },
+    {
+      "path": "source_registry_v6/grammar_source_ledger.jsonl",
+      "bytes": 48333,
+      "sha256": "eccd68ca979926ec06a671c5aeae42b31f10c8c7795a9eac4551d3ac18cdaed2"
+    },
+    {
+      "path": "source_registry_v6/manifest.json",
+      "bytes": 3293,
+      "sha256": "133708ed4db6378e07f5d7f7e33cead38b15a485c1e738906d51cddfb6609dbe"
+    },
+    {
+      "path": "source_registry_v6/organizer_coverage.jsonl",
+      "bytes": 7416,
+      "sha256": "138b2a1a6066495149e7fe4d3ee96f90baba6691ee43801c503d5fe0d0f20c20"
+    },
+    {
+      "path": "source_registry_v6/recent_acquisitions.jsonl",
+      "bytes": 56816,
+      "sha256": "977e23c838e57df0bbd2607051afa99952f1997a6ad3512a05cb42e6634e3580"
+    },
+    {
+      "path": "source_registry_v6/resource_ledger.csv",
+      "bytes": 75855,
+      "sha256": "a5468f2fa978c7d4448fca07ab02c55807d8eba8a5bd7f7e41bc372180cab0a1"
+    },
+    {
+      "path": "source_registry_v6/resource_ledger.jsonl",
+      "bytes": 213888,
+      "sha256": "332fb77084e064fb21243caa602e9c1c4fc9e573e792a606827c3be7c2c7c263"
+    },
+    {
+      "path": "source_registry_v6/verification.json",
+      "bytes": 9179,
+      "sha256": "ba14b7932e7c1dd055c4402953402f37151bd7cf8fc1166e7c12c0153aa0adb5"
+    }
+  ],
+  "manifest_id": "bfd6eecb3d011462d45282aa79967cd5258a90c6c5324193b5bb28d5a3c439b8"
+}

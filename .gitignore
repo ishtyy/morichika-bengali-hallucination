@@ -1,0 +1,21 @@
+# Credentials and local state
+.env
+.env.*
+secrets.txt
+kaggle.json
+.kaggle/
+credentials/
+*.token
+*.secret
+
+# Base models and third-party raw corpora are referenced by manifest only
+base_models/
+raw_corpora/
+downloads/
+
+# Runtime debris
+__pycache__/
+*.py[cod]
+*.part
+*.tmp
+

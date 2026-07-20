@@ -1,0 +1,207 @@
+{
+  "artifacts": {
+    "audit_receipt.json": {
+      "bytes": 4058,
+      "path": "artifacts/training/gemma4_e4b_owned_indirect_context_candidate_v1_20260720/audit_receipt.json",
+      "sha256": "ea7a5dbdbea8517bab81f8295cd11d5e240fc2d31bfc5ca9e3124b1544f28a6d"
+    },
+    "exact_token_audit.json": {
+      "bytes": 822,
+      "path": "artifacts/training/gemma4_e4b_owned_indirect_context_candidate_v1_20260720/exact_token_audit.json",
+      "sha256": "4c32eda7da702563fe42999941b2a6abf4dce5a93b01abd1942263a674f67c07"
+    },
+    "gold_provenance_receipt.json": {
+      "bytes": 632,
+      "path": "artifacts/training/gemma4_e4b_owned_indirect_context_candidate_v1_20260720/gold_provenance_receipt.json",
+      "sha256": "f051001b53b07315d6d9e486b9b547e51bcd2d50ceaa0ee49bce2fe46fac2d3a"
+    },
+    "overlap_audit.json": {
+      "bytes": 14448,
+      "path": "artifacts/training/gemma4_e4b_owned_indirect_context_candidate_v1_20260720/overlap_audit.json",
+      "sha256": "a10902b2d932edb3b6e0c84799111ab16a3128042394348755d67c001f7a38fb"
+    },
+    "overlap_row_ledger.jsonl": {
+      "bytes": 897049,
+      "path": "artifacts/training/gemma4_e4b_owned_indirect_context_candidate_v1_20260720/overlap_row_ledger.jsonl",
+      "rows": 1800,
+      "sha256": "2459b39387df97581e7932c78e54afa7dd9327ee75924d997c9e2cf4e679941f"
+    },
+    "parents.jsonl": {
+      "bytes": 332548,
+      "path": "artifacts/training/gemma4_e4b_owned_indirect_context_candidate_v1_20260720/parents.jsonl",
+      "rows": 600,
+      "sha256": "01969accbd0f221b61d9d3c03b05be5d0d4153f1e46d8ae6a0c73f3d4ba06ca5"
+    },
+    "quarantine.jsonl": {
+      "bytes": 0,
+      "path": "artifacts/training/gemma4_e4b_owned_indirect_context_candidate_v1_20260720/quarantine.jsonl",
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "records.jsonl": {
+      "bytes": 17120592,
+      "path": "artifacts/training/gemma4_e4b_owned_indirect_context_candidate_v1_20260720/records.jsonl",
+      "rows": 1800,
+      "sha256": "3925f6efaf6486fb52a19026dd981c9b8db9842dedffd39781670c6062bfe1bc"
+    },
+    "rights_receipt.json": {
+      "bytes": 637,
+      "path": "artifacts/training/gemma4_e4b_owned_indirect_context_candidate_v1_20260720/rights_receipt.json",
+      "sha256": "aaeab4a652cf58a9d0321304c971c6f49747fdd63a1f66087787a98f3fe53285"
+    },
+    "train_encoded.jsonl": {
+      "bytes": 19260872,
+      "path": "artifacts/training/gemma4_e4b_owned_indirect_context_candidate_v1_20260720/train_encoded.jsonl",
+      "rows": 1800,
+      "sha256": "677eacf30d9ca5e210372f4fe4ae94360287f3506447a5eb0c00a2049143ea38"
+    },
+    "train_examples.jsonl": {
+      "bytes": 11001365,
+      "path": "artifacts/training/gemma4_e4b_owned_indirect_context_candidate_v1_20260720/train_examples.jsonl",
+      "rows": 1800,
+      "sha256": "9afc2c4a5535742df98716227b9731db78c3802225e7872a715d8aa2b120ad33"
+    },
+    "unicode_audit.json": {
+      "bytes": 413,
+      "path": "artifacts/training/gemma4_e4b_owned_indirect_context_candidate_v1_20260720/unicode_audit.json",
+      "sha256": "b20ae0314b72fa93f4acd67df52a16e12af28d9663cc05d6c85060627a86b941"
+    }
+  },
+  "builder": {
+    "path": "pipeline/build_gemma4_e4b_owned_indirect_context_candidate_v1.py",
+    "sha256": "435c887abfe72bf41cd4544b42efb34486bf383974443ddd0964cdbe903cf203"
+  },
+  "contracts": {
+    "balanced_group_closed_triads": true,
+    "exact_literal_grounding_spans": true,
+    "existing_pack_or_checkpoint_modified": false,
+    "launch_authorization_present": false,
+    "maximum_sequence_tokens": 4096,
+    "no_world_rescue_for_contextual_nei": true,
+    "optimizer_schedule_present": false,
+    "protected_eval_and_existing_train_overlap_fail_closed": true,
+    "source_kind": "project_owned_deterministic_synthetic_bengali",
+    "train_only_candidate": true
+  },
+  "evidence_position_counts": {
+    "end": 192,
+    "front": 204,
+    "middle": 204
+  },
+  "families": 12,
+  "family_order": [
+    "temporal_offset_before_after",
+    "age_and_duration",
+    "event_phase_distinction",
+    "relation_and_kinship_chain",
+    "implicit_units_and_formula",
+    "comparison_and_order",
+    "pronoun_and_coreference",
+    "distractor_dates_and_names",
+    "negation_and_exception",
+    "sequence_versus_causality",
+    "theory_rule_then_application",
+    "missing_or_ambiguous_operands"
+  ],
+  "family_verdict_counts": {
+    "age_and_duration": {
+      "not_enough_information": 50,
+      "refuted": 50,
+      "supported": 50
+    },
+    "comparison_and_order": {
+      "not_enough_information": 50,
+      "refuted": 50,
+      "supported": 50
+    },
+    "distractor_dates_and_names": {
+      "not_enough_information": 50,
+      "refuted": 50,
+      "supported": 50
+    },
+    "event_phase_distinction": {
+      "not_enough_information": 50,
+      "refuted": 50,
+      "supported": 50
+    },
+    "implicit_units_and_formula": {
+      "not_enough_information": 50,
+      "refuted": 50,
+      "supported": 50
+    },
+    "missing_or_ambiguous_operands": {
+      "not_enough_information": 50,
+      "refuted": 50,
+      "supported": 50
+    },
+    "negation_and_exception": {
+      "not_enough_information": 50,
+      "refuted": 50,
+      "supported": 50
+    },
+    "pronoun_and_coreference": {
+      "not_enough_information": 50,
+      "refuted": 50,
+      "supported": 50
+    },
+    "relation_and_kinship_chain": {
+      "not_enough_information": 50,
+      "refuted": 50,
+      "supported": 50
+    },
+    "sequence_versus_causality": {
+      "not_enough_information": 50,
+      "refuted": 50,
+      "supported": 50
+    },
+    "temporal_offset_before_after": {
+      "not_enough_information": 50,
+      "refuted": 50,
+      "supported": 50
+    },
+    "theory_rule_then_application": {
+      "not_enough_information": 50,
+      "refuted": 50,
+      "supported": 50
+    }
+  },
+  "manifest_id": "7ef63b3df138fb0e11a574ee7df02cddf6afa994012152dcb6633455e5b63fad",
+  "maximum_native_tokens": 1769,
+  "parent_domain_counts": {
+    "অর্থনীতি অনুশীলন": 24,
+    "আইন নথি": 24,
+    "আইন প্রশিক্ষণ": 36,
+    "কৃষি পর্যবেক্ষণ": 36,
+    "জীববিজ্ঞান অনুশীলন": 36,
+    "জীববিজ্ঞান মাঠকাজ": 24,
+    "তথ্যপ্রযুক্তি পরীক্ষা": 24,
+    "নদী ব্যবস্থাপনা": 36,
+    "পদার্থবিজ্ঞান অনুশীলন": 24,
+    "পদার্থবিজ্ঞান পরীক্ষা": 36,
+    "পরিবেশ জরিপ": 24,
+    "বিদ্যালয় গবেষণা": 36,
+    "রসায়ন অনুশীলন": 36,
+    "রসায়ন পরীক্ষাগার": 24,
+    "শিক্ষা মূল্যায়ন": 24,
+    "শিক্ষাবিজ্ঞান গবেষণা": 36,
+    "সাধারণ বিজ্ঞান পরীক্ষা": 24,
+    "সাধারণ বিজ্ঞান পাঠ": 36,
+    "স্থানীয় ইতিহাস": 24,
+    "স্বাস্থ্য প্রশিক্ষণ": 36
+  },
+  "parent_length_counts": {
+    "long": 120,
+    "medium": 180,
+    "short": 300
+  },
+  "parents": 600,
+  "rows": 1800,
+  "status": "SEALED_TRAIN_ONLY_OWNED_SYNTHETIC_CANDIDATE_NOT_SCHEDULED_NOT_TRAINED",
+  "total_native_tokens_one_pass": 1574435,
+  "verdict_order": [
+    "supported",
+    "refuted",
+    "not_enough_information"
+  ],
+  "version": "bichar-gemma4-e4b-owned-indirect-context-candidate-v1-20260720"
+}

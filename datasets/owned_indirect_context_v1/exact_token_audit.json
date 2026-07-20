@@ -1,0 +1,20 @@
+{
+  "all_rows_at_or_below_4096": true,
+  "failure_rows": [],
+  "maximum_native_tokens": 1769,
+  "maximum_sequence_tokens": 4096,
+  "minimum_native_tokens": 381,
+  "optimizer_created": false,
+  "rows_checked": 1800,
+  "serializer_contract_sha256": "4d6d584695fc1802d08a27fa841227b61a3ec243a370dd409f17f3ebaf3f1f3b",
+  "tokenizer_receipt": {
+    "bytes": 1957,
+    "path": "artifacts/status/gemma4_e4b_offline_tokenizer_receipt_20260719.json",
+    "sha256": "1d0a1cbb74d32a6d98fbb3400ad0d6ac5f0a5c475f0d21825bf4ead2bf265451"
+  },
+  "tokenizer_tree_sha256": "400d6fae141cd366a49a3d45d22105d9a787353b1551941c61911c43133e6d48",
+  "total_native_tokens_one_pass": 1574435,
+  "training_performed": false,
+  "version": "bichar-gemma4-e4b-owned-indirect-context-candidate-v1-20260720-exact-token-audit",
+  "weights_loaded": false
+}

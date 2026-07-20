@@ -1,0 +1,112 @@
+{
+  "version": "morichika-phase2-retrieval-private-strict-v3-rights-summary",
+  "private_dataset": true,
+  "competition_use_only": true,
+  "public_redistribution_authorized_by_this_manifest": false,
+  "all_model_facing_sources_independently_licensed": false,
+  "all_included_sources_have_explicit_rights_disposition": true,
+  "competition_test_or_manual_label_artifacts_included": false,
+  "current_affairs_included": false,
+  "quarantined_or_unverified_sources_included": false,
+  "included": [
+    {
+      "source_id": "nctb_passage_qa_mendeley_v1",
+      "license": "CC BY 4.0",
+      "scope": "nonterminal closed-book evidence"
+    },
+    {
+      "source_id": "nctb_schooltext",
+      "license": "CC BY 4.0 processed corpus",
+      "scope": "nonterminal book/textbook evidence"
+    },
+    {
+      "source_id": "openai_mmmlu_bn",
+      "license": "MIT",
+      "scope": "nonterminal curated QA evidence"
+    },
+    {
+      "source_id": "uddipok_v3",
+      "license": "CC BY 4.0",
+      "scope": "3,797 complete rows; nonterminal curated reading-comprehension evidence; fixed passage/question-connected split ledger"
+    },
+    {
+      "source_id": "bangla_wordnet",
+      "license": "GPL-3.0",
+      "scope": "query expansion only; not truth"
+    },
+    {
+      "source_id": "bangla_bagdhara_cc_by_sa_4",
+      "license": "CC BY-SA 4.0",
+      "scope": "exact operation-scoped lexical lookup"
+    },
+    {
+      "source_id": "bnwiktionary_cc_by_sa_4_20260701",
+      "license": "CC BY-SA 4.0/GFDL",
+      "scope": "exact operation-scoped lexical lookup"
+    },
+    {
+      "source_id": "bangla_mmlu",
+      "license": "undeclared",
+      "scope": "private competition evidence only; no public redistribution"
+    },
+    {
+      "source_id": "nctb_qa_87805",
+      "license": "CC BY-NC 4.0",
+      "scope": "noncommercial nonterminal evidence"
+    },
+    {
+      "source_id": "nctb_education_aux",
+      "license": "mixed/record-specific",
+      "scope": "private corroboration with record-level terminal policy"
+    },
+    {
+      "source_id": "downloads_bcs_10_50",
+      "license": "user-supplied private authorization",
+      "scope": "private nonterminal OCR evidence"
+    },
+    {
+      "source_id": "joykoli_six_part",
+      "license": "user-provided private competition-use authorization",
+      "scope": "corroboration only; never promotes verdict"
+    }
+  ],
+  "pending_not_included": [
+    {
+      "source_id": "bengali_wikipedia_20210320",
+      "license": "CC BY-SA / GFDL article-text provenance",
+      "records": 167786,
+      "reason": "the record cache is validated, but page/revision/permanent-URL attribution sidecars required for strict reuse are absent"
+    },
+    {
+      "source_id": "banglaquad_v1",
+      "license": "MIT repository; Wikipedia attribution/share-alike provenance retained",
+      "records": 20085,
+      "reason": "local SQuAD payload is validated, but no separately validated strict-v3 adapter/cache exists"
+    },
+    {
+      "source_id": "proshno_binnash_v2",
+      "license": "CC BY 4.0",
+      "records": 4068,
+      "reason": "local workbook is validated, but no privacy-stripping exact-answer adapter/cache has been validated"
+    },
+    {
+      "source_id": "bengali_antonym_dictionary_commons_v1",
+      "license": "CC BY-SA 4.0",
+      "records": 0,
+      "reason": "OCR candidates are nonterminal and still require ordered pair, sense, POS, register, and independent reconciliation gates"
+    },
+    {
+      "source_id": "bnwiktionary_full_reviewed_extensions",
+      "license": "CC BY-SA 4.0 / GFDL",
+      "records": 0,
+      "reason": "the full dump is pinned, but only the already-admitted 3720-record exact lexical subset has a validated runtime cache"
+    }
+  ],
+  "explicitly_excluded": [
+    "BenHalluEval and every Phase-1 row-targeted/manual-label artifact",
+    "SQuAD-BN (unresolved translated-text/original-copyright rights gate)",
+    "Bengali Wikipedia 2021 source-wide (missing page/revision/permanent-URL attribution sidecars)",
+    "current-affairs corpora",
+    "unfinished OCR, mutable web, targeted bdlaws, and hard-context trees"
+  ]
+}

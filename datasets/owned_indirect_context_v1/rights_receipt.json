@@ -1,0 +1,13 @@
+{
+  "builder_sha256": "435c887abfe72bf41cd4544b42efb34486bf383974443ddd0964cdbe903cf203",
+  "competition_text_copied": false,
+  "generated_locally_without_network_or_browser": true,
+  "owner": "bichar-project-user",
+  "private_training_allowed_by_owner": true,
+  "redistribution_requires_owner_direction": true,
+  "research_reproduction_allowed_by_owner": true,
+  "rights_status": "approved_for_private_training_and_reproducible_research",
+  "source_kind": "project_owned_deterministic_synthetic_bengali",
+  "third_party_text_copied": false,
+  "version": "bichar-gemma4-e4b-owned-indirect-context-candidate-v1-20260720-rights-receipt"
+}

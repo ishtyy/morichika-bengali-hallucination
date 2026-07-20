@@ -1,0 +1,130 @@
+{
+  "actual": {
+    "evidence_position_counts": {
+      "end": 192,
+      "front": 204,
+      "middle": 204
+    },
+    "families": 12,
+    "family_verdict_counts": {
+      "age_and_duration": {
+        "not_enough_information": 50,
+        "refuted": 50,
+        "supported": 50
+      },
+      "comparison_and_order": {
+        "not_enough_information": 50,
+        "refuted": 50,
+        "supported": 50
+      },
+      "distractor_dates_and_names": {
+        "not_enough_information": 50,
+        "refuted": 50,
+        "supported": 50
+      },
+      "event_phase_distinction": {
+        "not_enough_information": 50,
+        "refuted": 50,
+        "supported": 50
+      },
+      "implicit_units_and_formula": {
+        "not_enough_information": 50,
+        "refuted": 50,
+        "supported": 50
+      },
+      "missing_or_ambiguous_operands": {
+        "not_enough_information": 50,
+        "refuted": 50,
+        "supported": 50
+      },
+      "negation_and_exception": {
+        "not_enough_information": 50,
+        "refuted": 50,
+        "supported": 50
+      },
+      "pronoun_and_coreference": {
+        "not_enough_information": 50,
+        "refuted": 50,
+        "supported": 50
+      },
+      "relation_and_kinship_chain": {
+        "not_enough_information": 50,
+        "refuted": 50,
+        "supported": 50
+      },
+      "sequence_versus_causality": {
+        "not_enough_information": 50,
+        "refuted": 50,
+        "supported": 50
+      },
+      "temporal_offset_before_after": {
+        "not_enough_information": 50,
+        "refuted": 50,
+        "supported": 50
+      },
+      "theory_rule_then_application": {
+        "not_enough_information": 50,
+        "refuted": 50,
+        "supported": 50
+      }
+    },
+    "parent_domain_counts": {
+      "অর্থনীতি অনুশীলন": 24,
+      "আইন নথি": 24,
+      "আইন প্রশিক্ষণ": 36,
+      "কৃষি পর্যবেক্ষণ": 36,
+      "জীববিজ্ঞান অনুশীলন": 36,
+      "জীববিজ্ঞান মাঠকাজ": 24,
+      "তথ্যপ্রযুক্তি পরীক্ষা": 24,
+      "নদী ব্যবস্থাপনা": 36,
+      "পদার্থবিজ্ঞান অনুশীলন": 24,
+      "পদার্থবিজ্ঞান পরীক্ষা": 36,
+      "পরিবেশ জরিপ": 24,
+      "বিদ্যালয় গবেষণা": 36,
+      "রসায়ন অনুশীলন": 36,
+      "রসায়ন পরীক্ষাগার": 24,
+      "শিক্ষা মূল্যায়ন": 24,
+      "শিক্ষাবিজ্ঞান গবেষণা": 36,
+      "সাধারণ বিজ্ঞান পরীক্ষা": 24,
+      "সাধারণ বিজ্ঞান পাঠ": 36,
+      "স্থানীয় ইতিহাস": 24,
+      "স্বাস্থ্য প্রশিক্ষণ": 36
+    },
+    "parent_length_counts": {
+      "long": 120,
+      "medium": 180,
+      "short": 300
+    },
+    "parents": 600,
+    "records": 1800,
+    "verdict_counts": {
+      "not_enough_information": 600,
+      "refuted": 600,
+      "supported": 600
+    }
+  },
+  "all_nei_no_world_rescue": true,
+  "all_target_counts_exact": true,
+  "all_triads_group_closed": true,
+  "duplicate_example_id_count": 0,
+  "exact_token_passed": true,
+  "existing_pack_or_checkpoint_modified": false,
+  "expected": {
+    "families": 12,
+    "parents": 600,
+    "records": 1800,
+    "siblings_per_parent": 3
+  },
+  "nei_derivation_or_evidence_failure_count": 0,
+  "overlap_passed": true,
+  "paid_or_external_action_performed": false,
+  "quarantine_record_count": 0,
+  "quarantined_parent_count": 0,
+  "rights_passed": true,
+  "status": "PASS_TRAIN_ONLY_CANDIDATE_NOT_SCHEDULED",
+  "training_authorized": false,
+  "triad_failure_count": 0,
+  "triad_failures": [],
+  "unicode_passed": true,
+  "version": "bichar-gemma4-e4b-owned-indirect-context-candidate-v1-20260720-audit-receipt"
+}

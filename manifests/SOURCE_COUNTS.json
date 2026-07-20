@@ -1,0 +1,24 @@
+{
+  "package_sources": 12,
+  "fts_sources": 4,
+  "fts_records": 50374,
+  "fts_model_facing_records": 20641,
+  "mmap_sources": 6,
+  "mmap_model_facing_records": 237753,
+  "lexical_exact_records": 14785,
+  "all_stored_records": 302912,
+  "records_by_source": {
+    "bangla_wordnet": 29733,
+    "nctb_passage_qa_mendeley_v1": 2802,
+    "openai_mmmlu_bn": 14042,
+    "uddipok_v3": 3797,
+    "bangla_mmlu": 85018,
+    "nctb_qa_87805": 47945,
+    "nctb_education_aux": 25890,
+    "downloads_bcs_10_50": 5309,
+    "nctb_schooltext": 58872,
+    "joykoli_six_part": 14719,
+    "lexical::bangla_bagdhara_cc_by_sa_4": 11065,
+    "lexical::bnwiktionary_cc_by_sa_4_20260701": 3720
+  }
+}

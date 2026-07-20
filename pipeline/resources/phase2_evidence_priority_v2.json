@@ -1,0 +1,35 @@
+{
+  "version": "phase2-evidence-priority-v2-exclusive-policy-first",
+  "decision_order": [
+    "retrieval_lane_compatibility",
+    "exclusive_policy_operation_compatibility",
+    "entity_relation_property_date_number_unit_negation_compatibility",
+    "support_counter_neutral_relation",
+    "source_authority_tier",
+    "exactness",
+    "within_source_rank",
+    "deterministic_identity"
+  ],
+  "exclusive_operations": [
+    "antonym_lookup",
+    "idiom_meaning_lookup",
+    "prefix_origin_classification",
+    "samas_taxonomy",
+    "sandhi_formation"
+  ],
+  "source_priority": [
+    "books_and_user_ocr_priority",
+    "curated_dataset",
+    "other_authorized_evidence",
+    "community_encyclopedia_corroboration"
+  ],
+  "safety": {
+    "contextual_external_retrieval_allowed": false,
+    "competition_test_labels_may_train_ranker": false,
+    "exclusive_operation_mismatch_is_model_facing": false,
+    "semantic_near_match_can_prove_exact_lexical_pair": false,
+    "retrieval_miss_is_terminal_label": false,
+    "support_and_counter_slots_are_response_symmetric": true,
+    "wikipedia_terminal_authority": false
+  }
+}

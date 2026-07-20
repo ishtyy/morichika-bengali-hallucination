@@ -1,0 +1,61 @@
+{
+  "version": "phase2-strict-rights-safe-source-priority-v3",
+  "decision_order": [
+    "closed_book_lane_only",
+    "operation_and_semantic_alignment",
+    "entity_relation_property_date_number_unit_negation_alignment",
+    "support_counter_neutral_relation",
+    "source_authority_tier",
+    "exactness",
+    "within_source_rank",
+    "deterministic_identity"
+  ],
+  "tiers": [
+    {
+      "tier": 0,
+      "class": "books_and_user_ocr_priority",
+      "source_ids": [
+        "downloads_bcs_10_50",
+        "joykoli_six_part",
+        "nctb_passage_qa_mendeley_v1",
+        "nctb_schooltext"
+      ]
+    },
+    {
+      "tier": 1,
+      "class": "curated_dataset",
+      "source_ids": [
+        "bangla_mmlu",
+        "nctb_education_aux",
+        "nctb_qa_87805",
+        "openai_mmmlu_bn",
+        "uddipok_v3"
+      ]
+    },
+    {
+      "tier": 2,
+      "class": "query_expansion_component",
+      "source_ids": [
+        "bangla_wordnet"
+      ],
+      "model_facing_truth": false
+    },
+    {
+      "tier": "operation_scoped",
+      "class": "exact_lexical_cache",
+      "source_ids": [
+        "bangla_bagdhara_cc_by_sa_4",
+        "bnwiktionary_cc_by_sa_4_20260701"
+      ]
+    }
+  ],
+  "safety": {
+    "semantic_alignment_precedes_authority": true,
+    "contextual_external_retrieval_allowed": false,
+    "retrieval_is_terminal": false,
+    "retrieval_miss_means": "NEI",
+    "wikipedia_terminal_authority": false,
+    "wordnet_is_truth": false,
+    "lexical_fuzzy_lookup_terminal": false
+  }
+}

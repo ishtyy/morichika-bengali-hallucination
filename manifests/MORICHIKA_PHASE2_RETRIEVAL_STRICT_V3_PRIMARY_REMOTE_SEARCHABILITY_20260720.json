@@ -1,0 +1,112 @@
+{
+  "version": "morichika-strict-v3-source-searchability-audit-v1",
+  "package": "D:\\Projects\\bengali-hallucination\\artifacts\\kaggle\\morichika_phase2_retrieval_strict_v3_primary_remote_verify_20260720\\extracted",
+  "fts_cache_id": "7db4c3250dcb5c396037b278ed8df148e7823242291e5ff43f2151ac3610d383",
+  "source_families": 12,
+  "expected_source_families": 12,
+  "probes": [
+    {
+      "family": "fts",
+      "source_id": "openai_mmmlu_bn",
+      "query_nonempty": true,
+      "hits": 1,
+      "exact_top_hit": true,
+      "passed": true
+    },
+    {
+      "family": "fts",
+      "source_id": "nctb_passage_qa_mendeley_v1",
+      "query_nonempty": true,
+      "hits": 1,
+      "exact_top_hit": true,
+      "passed": true
+    },
+    {
+      "family": "fts",
+      "source_id": "uddipok_v3",
+      "query_nonempty": true,
+      "hits": 1,
+      "exact_top_hit": true,
+      "passed": true
+    },
+    {
+      "family": "fts",
+      "source_id": "bangla_wordnet",
+      "query_nonempty": true,
+      "hits": 1,
+      "exact_top_hit": true,
+      "passed": true
+    },
+    {
+      "family": "mmap",
+      "source_id": "bangla_mmlu",
+      "records": 85018,
+      "exact_lookup_hits": 1,
+      "self_query_max_score_positive": true,
+      "passed": true
+    },
+    {
+      "family": "mmap",
+      "source_id": "nctb_qa_87805",
+      "records": 47945,
+      "exact_lookup_hits": 1,
+      "self_query_max_score_positive": true,
+      "passed": true
+    },
+    {
+      "family": "mmap",
+      "source_id": "nctb_education_aux",
+      "records": 25890,
+      "exact_lookup_hits": 1,
+      "self_query_max_score_positive": true,
+      "passed": true
+    },
+    {
+      "family": "mmap",
+      "source_id": "downloads_bcs_10_50",
+      "records": 5309,
+      "exact_lookup_hits": 1,
+      "self_query_max_score_positive": true,
+      "passed": true
+    },
+    {
+      "family": "mmap",
+      "source_id": "nctb_schooltext",
+      "records": 58872,
+      "exact_lookup_hits": 1,
+      "self_query_max_score_positive": true,
+      "passed": true
+    },
+    {
+      "family": "mmap",
+      "source_id": "joykoli_six_part",
+      "records": 14719,
+      "exact_lookup_hits": 1,
+      "self_query_max_score_positive": true,
+      "passed": true
+    },
+    {
+      "family": "lexical_exact",
+      "source_id": "bangla_bagdhara_cc_by_sa_4",
+      "records": 11065,
+      "operation_term_key_resolves": true,
+      "passed": true
+    },
+    {
+      "family": "lexical_exact",
+      "source_id": "bnwiktionary_cc_by_sa_4_20260701",
+      "records": 3720,
+      "operation_term_key_resolves": true,
+      "passed": true
+    }
+  ],
+  "policy": {
+    "contextual_external_retrieval_allowed": false,
+    "retrieval_is_terminal": false,
+    "semantic_alignment_precedes_authority": true,
+    "retrieval_miss_means": "NEI",
+    "passed": true
+  },
+  "errors": [],
+  "status": "passed"
+}

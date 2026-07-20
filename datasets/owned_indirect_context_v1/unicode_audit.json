@@ -1,0 +1,15 @@
+{
+  "bengali_codepoint_counts": {
+    "full_supplied_context": 2045061,
+    "question": 111527,
+    "response": 9095
+  },
+  "failure_count": 0,
+  "failures": [],
+  "fields_checked": 5400,
+  "grapheme_safe_spans_validated_by_contextual_record_v3": true,
+  "nfc_required": true,
+  "passed": true,
+  "rows_checked": 1800,
+  "version": "bichar-gemma4-e4b-owned-indirect-context-candidate-v1-20260720-unicode-audit"
+}

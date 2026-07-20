@@ -1,0 +1,49 @@
+{
+  "version": "morichika-phase2-retrieval-strict-v3-primary-remote-receipt-v1",
+  "verified_at_utc": "2026-07-20T17:10:09.2737912Z",
+  "dataset_id": "ishtyy/morichika-phase2-retrieval-strict-v3-20260720",
+  "dataset_url": "https://www.kaggle.com/datasets/ishtyy/morichika-phase2-retrieval-strict-v3-20260720",
+  "kaggle_dataset_numeric_id": 11273646,
+  "kaggle_version": 2,
+  "kaggle_status": "ready",
+  "private": true,
+  "title": "MORICHIKA Phase 2 Strict Rights-Safe Retrieval v3",
+  "manifest_id": "bfd6eecb3d011462d45282aa79967cd5258a90c6c5324193b5bb28d5a3c439b8",
+  "package_id": "6f68b6f284d55bacc3a34530a8492a78347b5c01243d55d256eb467ea096ad7e",
+  "declared_payload_files": 94,
+  "declared_payload_bytes": 615548266,
+  "server_files": 95,
+  "server_uncompressed_bytes": 615568180,
+  "server_listing_missing": 0,
+  "server_listing_extra": 0,
+  "server_listing_size_mismatches": 0,
+  "downloaded_archive": {
+    "bytes": 283922643,
+    "sha256": "e01308d2dcabc6d9218dd705116d9b4d727462d55d637d2839cdb7f711a8a8e0",
+    "members": 95,
+    "safe_member_layout": true,
+    "all_member_hashes_match": true,
+    "errors": []
+  },
+  "remote_extracted_validation": {
+    "all_gates_pass": true,
+    "receipt": "artifacts/status/MORICHIKA_PHASE2_RETRIEVAL_STRICT_V3_PRIMARY_REMOTE_FULL_VALIDATION_20260720.json",
+    "receipt_sha256": "ccfeb580960dfb9eac16b1b097a0ef37d3a70695a9eb6cce4fa6be8dae51b3dd"
+  },
+  "remote_archive_validation": {
+    "status": "passed",
+    "receipt": "artifacts/status/MORICHIKA_PHASE2_RETRIEVAL_STRICT_V3_PRIMARY_REMOTE_ARCHIVE_VERIFY_20260720.json",
+    "receipt_sha256": "538dfe85d0a87d84cbb6c0fafe983d175e7194086c0d21581afa0bc8af8ce665"
+  },
+  "source_searchability": {
+    "status": "passed",
+    "source_families": 12,
+    "fts_sources": 4,
+    "mmap_sources": 6,
+    "lexical_exact_sources": 2,
+    "receipt": "artifacts/status/MORICHIKA_PHASE2_RETRIEVAL_STRICT_V3_PRIMARY_REMOTE_SEARCHABILITY_20260720.json",
+    "receipt_sha256": "356650e5ee8690a1a7c3e1ca05cf1c52ba929b2d9454ec00ebbb969c553f56cc"
+  },
+  "kernel_launched": false,
+  "competition_submission_performed": false
+}

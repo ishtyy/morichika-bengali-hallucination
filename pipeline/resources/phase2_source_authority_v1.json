@@ -1,0 +1,59 @@
+{
+  "version": "phase2-source-authority-policy-v1",
+  "decision_order": [
+    "semantic_alignment",
+    "authority_tier",
+    "exactness",
+    "within_source_rank",
+    "deterministic_identity"
+  ],
+  "default": {
+    "authority_tier": 2,
+    "authority_class": "other_authorized_evidence",
+    "terminal_policy": "source_specific_only"
+  },
+  "tiers": [
+    {
+      "authority_tier": 0,
+      "authority_class": "books_and_user_ocr_priority",
+      "source_ids": [
+        "downloads_bcs_10_50",
+        "joykoli_six_part",
+        "nctb_passage_qa_mendeley_v1",
+        "nctb_schooltext"
+      ],
+      "note": "User-prioritized books, textbook passages, and user-supplied OCR corpora. OCR ambiguity and semantic mismatch remain nonterminal and fail closed."
+    },
+    {
+      "authority_tier": 1,
+      "authority_class": "curated_dataset",
+      "source_ids": [
+        "bangla_mmlu",
+        "nctb_education_aux",
+        "nctb_qa_87805",
+        "nctbench",
+        "openai_mmmlu_bn",
+        "squad_bn",
+        "uddipok_v3"
+      ],
+      "note": "Curated or benchmark-style datasets; exact provenance and source-specific nonterminal/terminal rules still apply."
+    },
+    {
+      "authority_tier": 3,
+      "authority_class": "community_encyclopedia_corroboration",
+      "source_ids": [
+        "bengali_wikipedia",
+        "bengali_wikipedia_20210320"
+      ],
+      "note": "Wikipedia is corroboration/counter-evidence only, never terminal, and cannot outrank equally aligned book, user OCR, or curated-dataset evidence."
+    }
+  ],
+  "safety": {
+    "semantic_alignment_precedes_authority": true,
+    "misaligned_high_tier_cannot_outrank_aligned_lower_tier": true,
+    "wikipedia_terminal_authority": false,
+    "wikipedia_may_be_retained_for_diversity_or_counterevidence": true,
+    "ocr_ambiguity_is_nonterminal": true,
+    "retrieval_miss_means": "NEI"
+  }
+}
